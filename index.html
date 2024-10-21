@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bienvenidafest</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>BienvenidaFest</h1>
+        <nav>
+            <ul>
+                <li><a href="#cartelera">Cartelera</a></li>
+                <li><a href="#localizacion">Localización</a></li>
+                <li><a href="#precios">Precios</a></li>
+                <li><a href="#registro">Registro</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="cartelera">
+        <h2>Cartelera de Artistas</h2>
+        <div class="cartelera-artistas">
+            <div class="artista">
+                <a href="artista1.html">
+                    <img src="https://m.media-amazon.com/images/I/81uAMoEQcOL._AC_SX679_.jpg" alt="Artista 1">
+                </a>
+                <p>Anuel AA</p>
+                <p class="artista-info">Género: Trap</p>
+            </div>
+            <div class="artista">
+                <a href="artista2.html">
+                    <img src="https://i.scdn.co/image/ab6761610000517427e96bc9bbb0c28566c5d788" alt="Artista 2">
+                </a>
+                <p>Bryant myers</p>
+                <p class="artista-info">Género: Trap</p>
+            </div>
+            <div class="artista">
+                <a href="artista3.html">
+                    <img src="https://e-cdn-images.dzcdn.net/images/artist/b26b74370f510d8995746c462f4a9a83/500x500-000000-80-0-0.jpg" alt="Artista 3">
+                </a>
+                <p>Noriel </p>
+                <p class="artista-info">Género: Trap</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="localizacion">
+        <h2>Localización del Evento</h2>
+        <div id="mapa">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d127259.86028595345!2d-6.023576161474063!3d37.36670506438504!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd6eb24312f0d0eb%3A0xb11ef40aa9b3d8ae!2sEstadio%20de%20La%20Cartuja!5e0!3m2!1ses!2ses!4v1648998567973!5m2!1ses!2ses" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        </div>
+    </section>
+
+    <section id="precios">
+        <h2>Precios de Entradas</h2>
+        <table>
+            <tr>
+                <th>Tipo de Entrada</th>
+                <th>Precio</th>
+            </tr>
+            <tr>
+                <td>Normal</td>
+                <td>$50</td>
+            </tr>
+            <tr>
+                <td>Niño</td>
+                <td>$25</td>
+            </tr>
+            <tr>
+                <td>Estudiante</td>
+                <td>$30</td>
+            </tr>
+            <tr>
+                <td>VIP</td>
+                <td>$100</td>
+            </tr>
+        </table>
+    </section>
+
+    <section id="registro">
+        <h2>Registro para la Compra de Entradas</h2>
+        <form>
+            <label for="nombre">Nombre y Apellidos:</label>
+            <input type="text" id="nombre" required>
+
+            <label for="edad">Edad:</label>
+            <input type="number" id="edad" required>
+
+            <label for="tipo-entrada">Seleccionar Tipo de Entrada:</label>
+            <select id="tipo-entrada" required>
+                <option value="">Seleccione</option>
+                <option value="normal">Normal</option>
+                <option value="niño">Niño</option>
+                <option value="estudiante">Estudiante</option>
+                <option value="vip">VIP</option>
+            </select>
+
+            <label for="numero-entradas">Número de Entradas:</label>
+            <input type="number" id="numero-entradas" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" required>
+
+            <label for="telefono">Número de Teléfono:</label>
+            <input type="tel" id="telefono" required>
+
+            <label for="comentarios">Comentarios Adicionales:</label>
+            <textarea id="comentarios"></textarea>
+
+            <label>
+                <input type="checkbox" required> Acepto los Términos y Condiciones
+            </label>
+
+            <button type="reset">Resetear</button>
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>Contacto: info@bienvenidafest.com</p>
+        <ul>
+            <li><a href="https://www.facebook.com/EstadioLaCartuja/posts/bienvenida-music-festiv">Facebook</a></li>
+            <li><a href="https://x.com/ConciertosEnSvq/status/183977501808516711">Twitter</a></li>
+            <li><a href="https://www.instagram.com/bienvenidafest/?hl=es">Instagram</a></li>
+        </ul>
+    </footer>
+
+    <script src="scripts.js"></script>
+</body>
+</html>

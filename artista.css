@@ -1,0 +1,96 @@
+/* Estilo General */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0; /* Fondo claro */
+}
+
+/* Encabezado */
+header {
+    background-color: #ff007f; /* Color vibrante */
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5rem;
+    font-family: 'Comic Sans MS', cursive, sans-serif; /* Tipografía alegre */
+}
+
+/* Sección de Información del Artista */
+section {
+    padding: 50px 20px;
+    text-align: center;
+    background-color: #ffcc00; /* Color de fondo brillante */
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Sombra para un efecto 3D */
+    margin: 20px auto;
+    max-width: 800px; /* Ancho máximo de la sección */
+}
+
+/* Título de la sección */
+section h2 {
+    font-size: 2.5rem; /* Tamaño de fuente grande */
+    color: #ff007f; /* Color vibrante para el título */
+    margin-bottom: 20px;
+}
+
+/* Estilo para la imagen del artista */
+.artista-imagen {
+    width: 300px;
+    height: auto;
+    border-radius: 15px; /* Bordes redondeados */
+    margin: 20px 0;
+    border: 5px solid #ff007f; /* Borde colorido */
+}
+
+/* Lista de canciones */
+h3 {
+    font-size: 2rem; /* Tamaño de fuente para las listas */
+    color: #333; /* Color del texto */
+    margin-top: 30px;
+}
+
+/* Estilo de la lista */
+ul {
+    list-style-type: none; /* Quitar viñetas */
+    padding: 0;
+    margin: 0;
+}
+
+ul li {
+    background-color: white; /* Fondo blanco para cada canción */
+    padding: 10px;
+    border-radius: 10px;
+    margin: 10px 0;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Sombra sutil */
+}
+
+/* Estilo para el vídeo incrustado */
+iframe {
+    width: 100%; /* Ancho completo */
+    height: 400px; /* Altura fija */
+    border: none; /* Sin borde */
+    border-radius: 15px; /* Bordes redondeados */
+    margin-top: 20px;
+}
+
+/* Botón para volver */
+.btn-volver {
+    display: inline-block;
+    background-color: #ff007f; /* Color del botón */
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    margin-top: 20px;
+    text-decoration: none;
+    transition: background-color 0.3s;
+}
+
+.btn-volver:hover {
+    background-color: #ffcc00; /* Color de fondo del botón en hover */
+}
